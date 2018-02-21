@@ -221,6 +221,14 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Gallery */
+.galleryHeader {
+  text-align: left;
+}
+
+.innerGallery {
+  display: inline-block;
+}
+
 .gallery {
 	margin-top: 30px;
 }

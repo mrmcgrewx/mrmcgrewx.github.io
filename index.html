@@ -64,53 +64,55 @@
 	<section id="works"></section>
 	<div class="container">
 		<div class="row centered mt mb">
-			<h1>Current Projects</h1>
+			<h1>Works</h1>
+      <p>Applications currently available on my public github.</p>
+      <h1>iOS</h1>
+      <div>
+        <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+          <a href="https://mrmcgrewx.github.io/DemoApp/"><img src="assets/img/portfolio/DemoAppIcon.png" class="img-responsive"></a>
+        </div>
+        <div class="row centered mt mb">
+          <h2>App Coordinator - Demo App</h2>
+            <p>An app that uses an app coordinator design pattern to abstract app navigation logic from your view controllers. As great as storyboard segues are, they show their achilles heel when it comes time to upgrade or modfiy your application. With this design pattern you can easily modify and change your view, while maintaining the underlying navigation logic of the app, allowing for faster development times.</p>
+        </div>
+      </div>
 
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="https://mrmcgrewx.github.io/DemoApp/"><img src="assets/img/portfolio/DemoAppIcon.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="https://github.com/mrmcgrewx/node-aws-lambda-executer"><img src="assets/img/portfolio/SpiderIcon.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="#"><img src="assets/img/portfolio/ComingSoon.png" class="img-responsive"></a>
-			</div>
-      <!--
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio05.png" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="work.html"><img src="assets/img/portfolio/folio06.png" class="img-responsive"></a>
-			</div-->
+      <div>
+        <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+          <a href="https://mrmcgrewx.github.io/MLApp-Demo/"><img src="assets/img/portfolio/MLApp_cover.png" class="img-responsive"></a>
+        </div>
+        <div class="row centered mt mb">
+          <h2>MLApp - Concept App</h2>
+            <p>This app builds off of the app coordinator design in the Demo App. Wanting to explore and learn more about the Swift CoreML library, I designed a simple app that scans objects in real time and uses the VGG16 model, provided by Apple, to identify the object on the screen. If there is over a 50% confidence rating returned from the data model, the app will take a picture of the object currently on the screen.</p>
+            <p>When the image is previewed, the user has the option to send the data to an external server or rescan other objects. If the user decides to send the data, image and location data are transferred to an external API. Check out the JavaServer Spring Boot project for a server to run this application with.</p>
+        </div>
+      </div>
+
+      <h1>Java</h1>
+      <div>
+        <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+          <a href="https://mrmcgrewx.github.io/Basic-Java-Spring-Boot-Server/"><img src="assets/img/portfolio/spring-boot-logo.png" class="img-responsive"></a>
+        </div>
+        <div class="row centered mt mb">
+          <h2>Basic Java Spring Boot Server</h2>
+            <p>A Java RESTful API that provides basic user creation and login operations, as well as data collection. This API compliments the MLApp, collecting image and location data from the MLApp and storing it to a mongodb database.This server is built with maven, and it can also be deployed in docker. Documentation is provided in the repo.</p>
+        </div>
+      </div>
+
+      <h1>Javascript (Node.js)</h1>
+      <div>
+        <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+          <a href="https://mrmcgrewx.github.io/node-aws-lambda-executer/"><img src="assets/img/portfolio/SpiderIcon.png" class="img-responsive"></a>
+        </div>
+        <div class="row centered mt mb">
+          <h2>Node AWS Lambda Executer</h2>
+          <p>A simple nodejs server that executes AWS Lambda functions on a cron schedule. This use to be the scheduler I used for scheduling AWS lambdas to run python scripts to scrape data from websites. But for personal reasons I transitioned to a Java Spring backened.</p>
+        </div>
+      </div>
+
 		</div><! --/row -->
 	</div><! --/container -->
 
-	<!-- div id="social">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-twitter"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-instagram"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-tumblr"></i></a>
-				</div>
-
-			</div><! --/row -->
 		</div><! --/container -->
 	</div><! --/social -->
 
